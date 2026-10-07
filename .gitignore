@@ -1,0 +1,75 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Test / tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+# Local model / benchmark artifacts
+*.gguf
+*.gguf.*
+*.safetensors
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Diagnostic / temporary outputs
+*_diagnostic.txt
+integration_red.txt
+_e2e_case003_trace.txt
+_integration.txt
+_report_test.txt
+"Тест ответ.txt"
+"Select-Object -Skip 430 -First 195.txt"
+"Skip 430 -First 195.txt"
+"V1_inventory_diagnostic.txt"
+"CASE-003 текущий.txt"
+
+# Local diagnostic dumps
+tests/evidence/File.txt
+tests/evidence/Path.txt
+tests/evidence/полный вывод.txt
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime-generated registries
+# Keep reviewed fixtures only; do not publish arbitrary local runtime state.
+event_registry.json
+
+# Project-local diagnostic / temporary files
+"CASE-003 текущий.txt"
+"Select-Object -Skip 430 -First 195.txt"
+"Skip 430 -First 195.txt"
+"Тест ответ.txt"
+
+# Local runtime data
+data/
+
+
+# Project-local diagnostic / temporary files
+CASE-003 текущий.txt
+Select-Object -Skip 430 -First 195.txt
+Skip 430 -First 195.txt
+Тест ответ.txt
+
+# Local runtime data
+data/
